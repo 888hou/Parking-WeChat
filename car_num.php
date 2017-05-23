@@ -11,7 +11,7 @@
    
 
     
-                  $fp = fsockopen("tcp://120.76.28.207", 12306, $errno, $errstr);
+                  $fp = fsockopen("tcp://119.146.68.41", 5000, $errno, $errstr);
                 if (!$fp)
                 {
                     $out= "ERROR: $errno - $errstr\n";

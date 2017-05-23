@@ -13,7 +13,7 @@ header("Content-type: text/html; charset=utf8");
     $wid=$_POST['who'];
 // $fromUsername=$_POST['who'];
 
- $fp = fsockopen("tcp://120.76.28.207", 12306, $errno, $errstr);
+ $fp = fsockopen("tcp://119.146.68.41", 5000, $errno, $errstr);
               
                 if (!$fp)
                 {
